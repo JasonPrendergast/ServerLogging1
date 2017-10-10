@@ -56,7 +56,7 @@ def index():
         #Count =+ Count+1
         with open(tf_log,'a') as f:
                 f.write(str(Count)+'\n')
-        print(Count)
+        
         #Count++
         if Count == 10:
             server.stop()
